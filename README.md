@@ -48,3 +48,10 @@ https://developer.apple.com/documentation/bundleresources/entitlements/com_apple
 
 アプリがincoming、もしくはoutgoingのネットワークコネクションを開くことができるか設定する。
 incomingがserver、outgoingがclientになる。
+
+# mapchild.plist
+
+## com.apple.security.inherit
+
+親のサンドボックスの設定を引き継ぐ。
+electronを使用する場合は必須の設定。
